@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bloodline - YouTube Series</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Sticky Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">My Bloodline</h1>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About Bluu</a></li>
+                <li><a href="#characters" class="nav-link">Characters</a></li>
+                <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                <li><a href="#videos" class="nav-link">Videos</a></li>
+                <li><a href="#episodes" class="nav-link">Episodes</a></li>
+                <li><a href="#socials" class="nav-link">My Socials</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="section">
+            <div class="container">
+                <h2>Welcome to My Bloodline</h2>
+                <p>Explore the dark and mysterious world of My Bloodline. New episodes drop weekly on YouTube.</p>
+                <a href="https://youtube.com" class="btn-primary">Watch on YouTube</a>
+            </div>
+        </section>
+
+        <!-- About Bluu Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2>About Bluu</h2>
+                <div class="about-content">
+                    <!-- About content will be loaded from data.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Characters Section -->
+        <section id="characters" class="section">
+            <div class="container">
+                <h2>Characters</h2>
+                <div class="characters-grid" id="characters-grid">
+                    <!-- Character cards will be loaded from data.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="section">
+            <div class="container">
+                <h2>Gallery</h2>
+                <div class="gallery-grid" id="gallery-grid">
+                    <!-- Gallery items will be loaded from data.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Videos Section -->
+        <section id="videos" class="section">
+            <div class="container">
+                <h2>Videos</h2>
+                <div class="videos-grid" id="videos-grid">
+                    <!-- Video thumbnails will be loaded from data.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Episodes Section -->
+        <section id="episodes" class="section">
+            <div class="container">
+                <h2>Episodes</h2>
+                <div class="episodes-grid" id="episodes-grid">
+                    <!-- Episode cards will be loaded from data.js -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Socials Section -->
+        <section id="socials" class="section">
+            <div class="container">
+                <h2>My Socials</h2>
+                <div class="socials-grid" id="socials-grid">
+                    <!-- Social links will be loaded from data.js -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 My Bloodline. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox Overlay -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div id="lightbox-caption"></div>
+    </div>
+
+    <!-- Load data and app scripts -->
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
