@@ -36,7 +36,7 @@ FOLDER STRUCTURE FOR IMAGES:
 // =====================================================================
 // Edit this object to change the About Bluu section content
 const aboutData = {
-    image: "bluu.jpg", // Place this image in /images/about/bluu.jpg
+    image: "bluu.jpeg", // Place this image in /images/about/bluu.jpg
     name: "Bluu",
     title: "Creator of My Bloodline",
     bio: "Bluu is the visionary creator behind My Bloodline, a gripping YouTube series that explores mystery, family secrets, and supernatural forces. With a passion for storytelling and a keen eye for atmospheric visuals, Bluu brings dark narratives to life that keep viewers on the edge of their seats.",
