@@ -74,7 +74,30 @@ const charactersData = [
         name: "Varmidous Of House Sunweaver",
         description: "Racist.", 
     },
-    
+    {
+        id: 5,
+        image: "noah1.jpeg", // Place in /images/characters/noah1.jpeg
+        name: "Noah",
+        description: "Brief description of Noah's role in the story. What makes him important to the plot?"
+    },
+    {
+        id: 6,
+        image: "isaac1.jpeg", // Place in /images/characters/isaac1.jpeg
+        name: "Isaac",
+        description: "Brief description of Isaac's role in the story. What makes him important to the plot?"
+    },
+    {
+        id: 7,
+        image: "zephirous1.jpeg", // Place in /images/characters/zephirous1.jpeg
+        name: "Zephirous",
+        description: "Brief description of Zephirous's role in the story. What makes him important to the plot?"
+    },
+    {
+        id: 8,
+        image: "varis1.jpeg", // Place in /images/characters/varis1.jpeg
+        name: "Varis",
+        description: "Brief description of Varis's role in the story. What makes him important to the plot?"
+    },
 
 
 
@@ -180,6 +203,54 @@ const episodesData = [
         episodeNumber: 4,
         description: "The closer Gabriel grows to Jonah and Bluu, the more uneasy Varmidous becomes.",
         youtubeLink: "https://www.youtube.com/watch?v=oL6INW7DjzU"
+    },
+    {
+        id: 4,
+        thumbnail: "episode5.jpg", // Place in /images/episodes/episode5.jpg
+        title: "The Obsession Behind His Mask",
+        episodeNumber: 5,
+        description: "Add a short description for this episode.",
+        youtubeLink: "PASTE_YOUTUBE_LINK_HERE"
+    },
+    {
+        id: 5,
+        thumbnail: "episode6.jpg",
+        title: "One Day Before The Invasion",
+        episodeNumber: 6,
+        description: "Add a short description for this episode.",
+        youtubeLink: "PASTE_YOUTUBE_LINK_HERE"
+    },
+    {
+        id: 6,
+        thumbnail: "episode7.jpg",
+        title: "The War Of Three Armies",
+        episodeNumber: 7,
+        description: "Add a short description for this episode.",
+        youtubeLink: "PASTE_YOUTUBE_LINK_HERE"
+    },
+    {
+        id: 7,
+        thumbnail: "episode8.jpg",
+        title: "A Mother's Touch",
+        episodeNumber: 8,
+        description: "Add a short description for this episode.",
+        youtubeLink: "PASTE_YOUTUBE_LINK_HERE"
+    },
+    {
+        id: 8,
+        thumbnail: "episode9.jpg",
+        title: "Isaac's Trial",
+        episodeNumber: 9,
+        description: "Add a short description for this episode.",
+        youtubeLink: "PASTE_YOUTUBE_LINK_HERE"
+    },
+    {
+        id: 9,
+        thumbnail: "episode10.jpg",
+        title: "The Broken Drow",
+        episodeNumber: 10,
+        description: "Add a short description for this episode.",
+        youtubeLink: "PASTE_YOUTUBE_LINK_HERE"
     }
     // Add more episodes by copying the example block above and pasting it here
 ];
